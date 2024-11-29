@@ -6,6 +6,7 @@ public class Main {
         Metods.compareNumbers();
         System.out.println (Metods.checkSumBetween(1,5));
         Metods.checkNumber(7);
+        System.out.println (Metods.checkNumberTwo(-7));
 
     }
 
