@@ -92,7 +92,7 @@ public class Metods {
         for (int i = 0; i < inOderArray.length; i++) {
             inOderArray[i] = i+1;
         }
-        //System.out.println(Arrays.toString(inOderArray));
+        System.out.println(Arrays.toString(inOderArray));
     }
     public static void newArrayMultiplyBySix () { //Задание 12
         int [] numberArray = new int[]{1,5,3,2,11,4,5,2,4,8,9,1};
