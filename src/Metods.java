@@ -110,7 +110,7 @@ public class Metods {
         for (int i = 0; i < myTwoDimensionalArray.length; i++) {
             myTwoDimensionalArray [i][i] = 1;
         }
-       while ((j >= 0) & (y < 6)) {
+       while ((j >= 0) & (y < myTwoDimensionalArray.length)) {
                 myTwoDimensionalArray[y][j] = 1;
                 y++;
                 j--;
