@@ -1,20 +1,25 @@
 import java.util.Arrays;
 public class Main {
     public static void main (String[] args) {
-        Metods.printThreeWords();//Задание 1
-        Metods.checkSumSing();//Задание 2
-        Metods.printColor();//Задание 3
-        Metods.compareNumbers();//Задание 4
-        System.out.println (Metods.checkSumBetween(1,5));//Задание 5
-        Metods.checkNumber(7);//Задание 6
-        System.out.println (Metods.checkNumberTwo(-7));//Задание 7
-        Metods.loopStringWrite("Здравствуйте", 3);//Задание 8
-        System.out.println (Metods.yearVerification(2000));//Задание 9
-        Metods.newArrayReplaceSymbol();//Задание 10
-        Metods.newArrayHundred();//Задание 11
-        Metods.newArrayMultiplyBySix(); //Задание 12
-        Metods.twoDimensionalArray(); //Задание 13
-        System.out.println(Arrays.toString(Metods.myNewArray(5,1))); //Задание 14
+
+        Worker Worker1 = new Worker("Степан Федорович Овчиников", "Электрик",
+                "fortuna@gmail.com","+375296346321", 2920, 29);
+        Worker1.cardOfWorker();
+
+        Worker [] workArray= new Worker[5];
+        workArray[0] = new Worker("Владимир Алексеевич Куршок", "Директор",
+                "kyrn@gmail.com", "+375298526321", 4500, 45);
+        workArray[1] = new Worker("Андрей Михайлович Резнков", "Заместитель директора",
+                "ereez@gmail.com", "+375294692235", 3500, 33);
+        workArray[2] = new Worker("Петр Андреевич Шишковский", "Начальник производства",
+                "morgen@gmail.com", "+375296332541", 3550, 41);
+        workArray[3] = new Worker("Степан Федорович Овчиников", "Электрик",
+                "fortuna@gmail.com", "+375296346321", 2920, 29);
+        workArray[4] = new Worker("Мирослав Сергеевич Дишко", "Младщий инженер",
+                "joker@gmail.com", "+375298521111", 1900, 27);
+
+        AmusementPark NewPark = new AmusementPark("Парк Горького");
+        NewPark.amusementParkCard();
 
     }
 
